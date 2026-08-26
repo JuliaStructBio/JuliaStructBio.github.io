@@ -1,0 +1,248 @@
+[site]
+name = "Structural Bioinformatics in Julia"
+short_name = "JuliaStructBio"
+url = "https://juliastructbio.github.io"
+logo = "JuliaStructBio"
+meta_title = "Structural Bioinformatics in Julia"
+meta_description = "Open and high-performance Julia tooling for structural biology, molecular modeling, and reproducible bioinformatics workflows."
+hero_badge = "Open Source Community"
+hero_primary_cta = "Explore packages"
+hero_secondary_cta = "Join the organization"
+talks_nav = "JuliaCon talks"
+
+[hero]
+headline = "Learn, Build, and Share Protein Structure Science in Julia"
+subheadline = "Structural Bioinformatics in Julia unites researchers to create open, reproducible tools for protein structures and molecular discovery."
+metric_1_label = "Open repositories"
+metric_1_value = "Growing"
+metric_2_label = "Community mode"
+metric_2_value = "Collaborative"
+metric_3_label = "Core principles"
+metric_3_value = "Fast · Open · Reproducible"
+
+[[focus_areas]]
+id = "structure"
+name = "Structure and Dynamics"
+blurb = "Tools for protein structures, conformational analysis, and simulation-ready workflows."
+color = "#CB3C33"
+
+[[focus_areas]]
+id = "pipelines"
+name = "Pipelines and Interoperability"
+blurb = "Composable data workflows bridging sequence, structure, visualization, and downstream analytics."
+color = "#4063D8"
+
+[[focus_areas]]
+id = "community"
+name = "Education and Community"
+blurb = "Shared examples, mentorship, and practical entry points for new contributors."
+color = "#389826"
+
+[[capabilities]]
+id = "io"
+label = "File I/O"
+
+[[capabilities]]
+id = "visualization"
+label = "Visualization"
+
+[[capabilities]]
+id = "modeling"
+label = "Modeling"
+
+[[capabilities]]
+id = "molecular-dynamics"
+label = "Molecular Dynamics"
+
+[[capabilities]]
+id = "analysis"
+label = "Analysis"
+
+[[capabilities]]
+id = "pipelines"
+label = "Pipelines"
+
+[[packages]]
+id = "biostructures"
+name = "BioStructures.jl"
+summary = "Read, write, analyze, and visualize macromolecular structures in Julia."
+repo_url = "https://github.com/BioJulia/BioStructures.jl"
+docs_url = "https://biojulia.dev/BioStructures.jl/stable"
+paper_url = "https://doi.org/10.1093/bioinformatics/btaa502"
+stars = 71
+focus_area = "structure"
+capabilities = ["io", "analysis"]
+
+
+[[packages]]
+id = "biochemical-visualization"
+name = "BiochemicalVisualization.jl"
+summary = "Visualization utilities for biochemical and structural biology data."
+repo_url = "https://github.com/hildebrandtlab/BiochemicalVisualization.jl"
+stars = 0
+focus_area = "structure"
+capabilities = ["visualization", "modeling"]
+
+[[packages]]
+id = "biomakie"
+name = "BioMakie.jl"
+summary = "Biology-focused plotting and interfaces on top of Makie."
+repo_url = "https://github.com/BioJulia/BioMakie.jl"
+stars = 70
+focus_area = "structure"
+capabilities = ["visualization", "analysis"]
+
+[[packages]]
+id = "protplot"
+name = "ProtPlot.jl"
+summary = "Visualization tools for protein data and structural bioinformatics workflows."
+repo_url = "https://github.com/MurrellGroup/ProtPlot.jl/"
+stars = 0
+focus_area = "structure"
+capabilities = ["visualization"]
+
+
+[[packages]]
+id = "biochemical-algorithms"
+name = "BiochemicalAlgorithms.jl"
+summary = "Algorithms for biochemical and structural bioinformatics analysis workflows."
+repo_url = "https://github.com/hildebrandtlab/BiochemicalAlgorithms.jl"
+stars = 0
+focus_area = "structure"
+capabilities = ["analysis", "io", "modeling"]
+
+[[packages]]
+id = "molly"
+name = "Molly.jl"
+summary = "Molecular dynamics simulations in Julia for atomistic and coarse-grained systems."
+repo_url = "https://github.com/JuliaMolSim/Molly.jl"
+stars = 0
+focus_area = "structure"
+capabilities = ["modeling", "molecular-dynamics"]
+
+[[packages]]
+id = "protosyn"
+name = "ProtoSyn.jl"
+summary = "A Julia framework for molecular modeling, peptide design, and molecular simulation workflows."
+repo_url = "https://github.com/sergio-santos-group/ProtoSyn.jl"
+stars = 61
+focus_area = "structure"
+capabilities = ["modeling", "analysis"]
+
+[[packages]]
+id = "assigning-secondary-structure"
+name = "AssigningSecondaryStructure.jl"
+summary = "Tools for assigning and analyzing protein secondary structure features in Julia workflows."
+repo_url = "https://github.com/MurrellGroup/AssigningSecondaryStructure.jl"
+stars = 0
+focus_area = "structure"
+capabilities = ["analysis"]
+
+[[packages]]
+id = "tmscore"
+name = "TMscore.jl"
+summary = "Julia utilities for TM-score based structural comparison and evaluation."
+repo_url = "https://github.com/MurrellGroup/TMscore.jl"
+stars = 0
+focus_area = "structure"
+capabilities = ["analysis"]
+
+[[packages]]
+id = "backboner"
+name = "Backboner.jl"
+summary = "Backbone-focused molecular modeling utilities for structural bioinformatics workflows."
+repo_url = "https://github.com/MurrellGroup/Backboner.jl"
+stars = 0
+focus_area = "structure"
+capabilities = ["modeling"]
+
+[[packages]]
+id = "kabsch"
+name = "Kabsch.jl"
+summary = "Rigid-body alignment with the Kabsch algorithm for structural analysis and superposition."
+repo_url = "https://github.com/MurrellGroup/Kabsch.jl"
+stars = 0
+focus_area = "structure"
+capabilities = ["analysis", "modeling"]
+
+[[packages]]
+id = "dihedral-parametrization"
+name = "DihedralParametrization.jl"
+summary = "Parameterization tools for dihedral terms in molecular modeling pipelines."
+repo_url = "https://github.com/HolyLab/DihedralParametrization.jl"
+stars = 0
+focus_area = "structure"
+capabilities = ["modeling"]
+
+[[packages]]
+id = "gpcr-analysis"
+name = "GPCRAnalysis.jl"
+summary = "Analysis workflows for GPCR-related molecular and structural datasets in Julia."
+repo_url = "https://github.com/HolyLab/GPCRAnalysis.jl"
+stars = 0
+focus_area = "structure"
+capabilities = ["analysis"]
+
+[[packages]]
+id = "mitos"
+name = "MIToS.jl"
+summary = "Protein sequence and structure analysis toolkit for molecular informatics and bioinformatics."
+repo_url = "https://github.com/diegozea/MIToS.jl"
+stars = 0
+focus_area = "pipelines"
+capabilities = ["analysis", "pipelines"]
+
+[[packages]]
+id = "julia-bioinformatics-jlls"
+name = "JuliaBioinformaticsJLLs"
+summary = "Binary dependency wrappers and interoperability building blocks for Julia bioinformatics workflows."
+repo_url = "https://github.com/diegozea/JuliaBioinformaticsJLLs"
+stars = 0
+focus_area = "pipelines"
+capabilities = ["io", "pipelines"]
+
+
+[[talks]]
+title = "Molly.jl at JuliaCon"
+event = "JuliaCon"
+year = 2024
+url = "https://youtu.be/XTE5HSo-jx8?si=uguVg26M88rdOtG-"
+
+[[talks]]
+title = "MIToS Evolution: Riding the Bioinformatics Wave (Diego Javier Zea)"
+event = "JuliaCon"
+year = 2024
+url = "https://www.youtube.com/live/6L2TGeeLw9g?si=2OFOTGgCrlD4WEzr"
+
+[[talks]]
+title = "Structure-based Bioinformatics with BiochemicalAlgorithms.jl"
+event = "JuliaCon"
+year = 2024
+url = "https://youtu.be/vAcAKdfWm64?si=HDWmGqbP0vai7NN7"
+
+[[neighboring_communities]]
+id = "biojulia"
+name = "BioJulia"
+summary = "Fast, open, and composable tools for biological sequence and structure analysis in Julia."
+github_url = "https://github.com/BioJulia"
+website_url = "https://biojulia.dev/"
+
+[[neighboring_communities]]
+id = "molecular-simulation-in-julia"
+name = "Molecular Simulation in Julia"
+summary = "A Julia community focused on molecular simulation methods, software, and scientific workflows."
+github_url = "https://github.com/JuliaMolSim"
+website_url = "https://juliamolsim.github.io/"
+
+[[neighboring_communities]]
+id = "juliahealth"
+name = "JuliaHealth"
+summary = "Open software for health, medicine, medical imaging, and computational physiology in Julia."
+github_url = "https://github.com/JuliaHealth"
+website_url = "https://juliahealth.org/"
+
+[get_involved]
+organization_url = "https://github.com/JuliaStructBio"
+issues_url = "https://github.com/JuliaStructBio/.github/issues"
+slack_url = "https://julialang.slack.com/archives/C0BSJJH7EN6"
+contribution_text = "Start by opening an issue in the organization profile repository or proposing a package card via pull request."
